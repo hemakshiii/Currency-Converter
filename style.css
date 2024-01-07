@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.container{
+    background-color: cadetblue;
+    padding: 4rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.drop-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 25px;
+   
+}
+
+
+.form{
+    margin: 2rem 0 1rem 0;
+}
+
+.form select, button, input{
+    width:100%;
+}
+
+.amount{
+    margin-top: 2rem;
+    font-size: 25px;
+}
+
+.amount input{
+    background-color:  rgb(243, 243, 189);
+    margin-top: 10px;
+    font-size: 25px; 
+    border:1px solid white
+}
+
+.drop-down select{
+    background-color:  rgb(243, 243, 189);
+    font-size: 18px;
+    
+}
+
+.btn
+{
+    margin-top: 2rem;
+}
+
+.btnn{
+    height: 2.5rem;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    box-shadow: rgb(76, 49, 225);
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.exchange{
+    margin-top: 2rem;
+    font-size: 25px;
+}
+
+.msg{
+  margin-top: 10px;
+    background-color: rgb(243, 243, 189);
+  
+}
